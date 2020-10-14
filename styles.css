@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Noto-sans;
+  background-color: #2a4163;
+  height: 100%;
+}
+.banner img{
+  max-width: 100%;
+  z-index: 2;
+  position: absolute;
+}
+
+#container_blue{
+  position: absolute;
+  width: 18%;
+  height: 100%;
+  left: 10%;
+}
+.stripe_blue{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin: 0;
+  background: #237AFA;
+}
+#container_aqua{
+  position: absolute;
+  width: 18%;
+  height: 100%;
+  left: 30%
+}
+.stripe_aqua{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: #10ddcc;
+}
+#container_orange{
+  position: absolute;
+  width: 18%;
+  height: 100%;
+  left: 50%
+}
+.stripe_orange{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: #f77660;
+}
+#container_yellow{
+  position: absolute;
+  width: 18%;
+  height: 100%;
+  left: 70%;
+}
+.stripe_yellow{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: #f9e68b;
+}
